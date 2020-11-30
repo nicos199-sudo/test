@@ -1,0 +1,10 @@
+
+{% load display_tags %}
+{% load i18n %}
+{% load image_tags %}
+{% load reviews_tags %}
+
+<form class="form-inline my-2 my-lg-0" method="GET" action="{% url 'search:search' %}">
+    <input class="form-control mr-sm-2" name="q" placeholder="Search" aria-label="Search">
+    <button class="btn btn-dark" type="submit"><i class="fas fa-search"></i></button>
+</form>
